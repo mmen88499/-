@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IFrame مع تحديث كل 5 ثوان</title>
+</head>
+<body>
+
+  <iframe id="myIframe" src="your_iframe_url.html" width="800" height="600"></iframe>
+
+  <script>
+    setInterval(function() {
+      document.getElementById('myIframe').contentWindow.location.reload();
+    }, 5000); // 5000 مللي ثانية = 5 ثوان
+  </script>
+
+</body>
+</html>
