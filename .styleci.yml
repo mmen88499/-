@@ -4,4 +4,4 @@ php:
     - unused_use
   finder:
     not-name:
-      - index.php
+      - index.html
